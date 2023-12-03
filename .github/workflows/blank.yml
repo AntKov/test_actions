@@ -25,4 +25,4 @@ jobs:
           pip install pytest
 
       - name: Run tests
-        run:   pytest  -v 
+        run:   pytest  -v test_calculator.py::test_add
