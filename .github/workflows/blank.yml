@@ -25,6 +25,5 @@ jobs:
           pip install pytest
 
       - name: Run tests
-        run:   pytest  -v  --rootdir=/home/runner/work/test_actions/tests
+        run:   pytest  -v  
 
- 
