@@ -25,5 +25,5 @@ jobs:
           pip install pytest
 
       - name: Run tests
-        run:   pytest    --rootdir=https://github.com/AntKov/test_actions
+        run:   pytest    --rootdir=--rootdir=/home/runner/work/test_actions/
 
